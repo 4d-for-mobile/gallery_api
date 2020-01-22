@@ -1,6 +1,6 @@
 {
-  "name": "gallery",
-  "version": "1.0.0",
+  "name": "gallery_api",
+  "version": "0.0.1",
   "description": "get repositories informations",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/4d-for-ios/gallery/api"
+    "url": "https://github.com/4d-for-ios/gallery_api"
   },
   "keywords": [
     "4d-for-ios"
   ],
   "author": "eric.marchand@4d.com",
-  "license": "ISC"
+  "license": "MIT"
 }
