@@ -4,7 +4,7 @@
   "description": "get repositories informations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha index.test.js"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,9 @@
     "4d-for-ios"
   ],
   "author": "eric.marchand@4d.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "3.2.0"
+  }
 }
