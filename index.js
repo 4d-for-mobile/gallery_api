@@ -1,7 +1,10 @@
 const https = require('https');
 
+const topics = ["4d-for-ios-form-list", "4d-for-ios-form-detail","4d-for-ios-formatter", "4d-for-ios-form-login"];
+
+// Return list of available topics
 exports.topics = function() {
-    return ["4d-for-ios-form-list", "4d-for-ios-form-detail","4d-for-ios-formatter", "4d-for-ios-form-login"];
+    return topics;
 }
 
 exports.fetch = function(topic, complete) {
