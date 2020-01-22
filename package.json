@@ -1,0 +1,18 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "get repositories informations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4d-for-ios/gallery/api"
+  },
+  "keywords": [
+    "4d-for-ios"
+  ],
+  "author": "eric.marchand@4d.com",
+  "license": "ISC"
+}
