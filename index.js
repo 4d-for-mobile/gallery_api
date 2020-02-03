@@ -9,7 +9,7 @@ const topics = [
   "4d-for-ios-form-login"
 ];
 const baseURL =
-  "https://raw.githubusercontent.com/4d-for-ios/gallery/master/Output/";
+  "https://raw.githubusercontent.com/4d-for-ios/gallery/master/Specs/";
 
 // Return list of available topics
 exports.topics = function() {
