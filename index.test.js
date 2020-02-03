@@ -1,7 +1,16 @@
 
-var expect = require('chai').expect;
+const chai = require('chai');
+var expect = chai.expect;
+chai.use(require('chai-url'));
 
 const gallery_api = require('./index');
+
+describe("baseURL", function(){
+    it("should return a base url", function(){
+        expect(gallery_api.baseURL).to.be.not.empty;
+        expect(gallery_api.baseURL).to.have.protocol('https');
+    });
+});
 
 describe("topics", function(){
     it("should return 4 topics", function(){

@@ -11,6 +11,9 @@ const topics = [
 const baseURL =
   "https://raw.githubusercontent.com/4d-for-ios/gallery/master/Specs/";
 
+
+exports.baseURL = baseURL
+
 // Return list of available topics
 exports.topics = function() {
   return topics;
@@ -19,7 +22,7 @@ exports.topics = function() {
 // Fetch repositories information for one topic
 exports.repositories = function(topic) {
   return new Promise((resolve, reject) => {
-    var url = baseURL + topic + "/index.json";
+    var url = this.baseURL + topic + "/index.json";
     //console.log(url)
     https
       .get(url, (response) => {
@@ -53,7 +56,7 @@ exports.repositories = function(topic) {
 // Fetch repositories information for one topic
 exports.repository = function(topic, project) {
   return new Promise((resolve, reject) => {
-    let url = baseURL + topic + "/" + project + "/info.json";
+    let url = this.baseURL + topic + "/" + project + "/info.json";
     //console.log(url);
     https
       .get(url, response => {
