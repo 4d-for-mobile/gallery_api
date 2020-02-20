@@ -8,9 +8,9 @@ const topics = [
   "4d-for-ios-formatter",
   "4d-for-ios-form-login"
 ];
-const baseURL =
-  "https://raw.githubusercontent.com/4d-for-ios/gallery/master/Specs/";
 
+const baseURL =
+  "https://4d-for-ios.github.io/gallery/Specs/"; // "https://raw.githubusercontent.com/4d-for-ios/gallery/master/Specs/";
 
 exports.baseURL = baseURL
 
