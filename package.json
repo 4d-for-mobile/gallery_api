@@ -1,5 +1,5 @@
 {
-  "name": "@4d-for-ios/gallery_api",
+  "name": "@4d-for-mobile/gallery_api",
   "version": "1.1.0",
   "description": "get repositories informations",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/4d-for-ios/gallery_api"
+    "url": "https://github.com/4d-for-mobile/gallery_api"
   },
   "keywords": [
     "4d-for-ios"
