@@ -10,7 +10,7 @@ const topics = [
 ];
 
 const baseURL =
-  "https://4d-for-ios.github.io/gallery/Specs/"; // "https://raw.githubusercontent.com/4d-for-ios/gallery/master/Specs/";
+  "https://4d-for-mobile.github.io/gallery/Specs/"; // "https://raw.githubusercontent.com/4d-for-ios/gallery/master/Specs/";
 
 exports.baseURL = baseURL
 
