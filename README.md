@@ -1,6 +1,6 @@
-[![nodejs](https://github.com/4d-for-mobile/gallery_api/workflows/build-test/badge.svg)](https://github.com/4d-for-mobile/gallery_api/actions?workflow=build-test)
-[![nodejs](https://github.com/4d-for-mobile/gallery_api/workflows/publish-gpr-npm/badge.svg)](https://github.com/4d-for-mobile/gallery_api/actions?workflow=publish-gpr-npm)
-![release](https://img.shields.io/github/v/release/4d-for-mobile/gallery_api)
+[![nodejs](https://github.com/4d-go-mobile/gallery_api/workflows/build-test/badge.svg)](https://github.com/4d-go-mobile/gallery_api/actions?workflow=build-test)
+[![nodejs](https://github.com/4d-go-mobile/gallery_api/workflows/publish-gpr-npm/badge.svg)](https://github.com/4d-go-mobile/gallery_api/actions?workflow=publish-gpr-npm)
+![release](https://img.shields.io/github/v/release/4d-go-mobile/gallery_api)
 
 # gallery_api
 api to get gallery information
