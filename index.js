@@ -3,14 +3,14 @@
 const fetch = require('node-fetch');
 
 const topics = [
-    "4d-for-ios-form-list",
-    "4d-for-ios-form-detail",
-    "4d-for-ios-formatter",
-    "4d-for-ios-form-login"
+    "form-list",
+    "form-detail",
+    "formatter",
+    "form-login"
 ];
 
-const baseURL =
-    "https://4d-go-mobile.github.io/gallery/Specs/"; // "https://raw.githubusercontent.com/4d-go-mobile/gallery/master/Specs/";
+const baseURL = "https://4d-go-mobile.github.io/gallery/Specs/";
+// const baseURL = "https://raw.githubusercontent.com/4d-go-mobile/gallery/master/Specs/";
 
 exports.baseURL = baseURL
 
