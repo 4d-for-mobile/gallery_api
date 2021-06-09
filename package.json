@@ -1,6 +1,6 @@
 {
-    "name": "@4d-for-mobile/gallery_api",
-    "version": "1.2.2",
+    "name": "@4d-go-mobile/gallery_api",
+    "version": "1.3.0",
     "description": "get repositories informations",
     "main": "index.js",
     "scripts": {
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/4d-for-mobile/gallery_api"
+        "url": "https://github.com/4d-go-mobile/gallery_api"
     },
     "keywords": [
         "4d-for-ios", "4d-for-mobile"
