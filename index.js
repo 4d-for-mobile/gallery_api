@@ -5,8 +5,9 @@ const fetch = require('node-fetch');
 const topics = [
     "form-list",
     "form-detail",
+    "form-login",
     "formatter",
-    "form-login"
+    "input-control"
 ];
 
 const baseURL = "https://4d-go-mobile.github.io/gallery/Specs/";
