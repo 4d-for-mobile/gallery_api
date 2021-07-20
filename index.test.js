@@ -13,8 +13,8 @@ describe("baseURL", function(){
 });
 
 describe("topics", function(){
-    it("should return 4 topics", function(){
-        expect(gallery_api.topics().length).to.equal(4);
+    it("should return 5 topics", function(){
+        expect(gallery_api.topics().length).to.equal(5);
     });
 });
 
