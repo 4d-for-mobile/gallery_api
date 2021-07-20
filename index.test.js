@@ -36,7 +36,7 @@ describe("repositories", function(){
 describe("repository", function(){
     let topic = "form-detail"
     it("should return repo for topic "+topic, function(done){
-        gallery_api.repository(topic, "4d-for-ios/form-detail-Cards")
+        gallery_api.repository(topic, "4d-go-mobile/form-detail-Cards")
         .then(function(repo) {
             expect(repo.name).to.be.not.empty;
             done();
