@@ -34,7 +34,7 @@ describe("repositories", function(){
 });
 
 describe("repository", function(){
-    let topic = "4d-for-ios-form-detail"
+    let topic = "form-detail"
     it("should return repo for topic "+topic, function(done){
         gallery_api.repository(topic, "4d-for-ios/form-detail-Cards")
         .then(function(repo) {
